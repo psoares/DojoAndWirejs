@@ -9,6 +9,6 @@ define({ // Wire spec
         {id:2, label:'baz', value:'baz'}
       ]}
     }
-  },
+  }
 
 });
