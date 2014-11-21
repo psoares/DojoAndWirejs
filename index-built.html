@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"><!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Wirejs test (built)</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript">
+			dojoConfig = {
+				async:true,
+				isDebug:true,
+				baseUrl:'./release',
+				has:{
+					"config-tlmSiblingOfDojo": 1
+				},
+				deps : ['app'],
+				packages:
+					[	'app',
+						{
+							"name" : "dojo"
+							//"location" : "app/bower_components/dojo"
+						},
+						{
+							"name" : "dijit"
+							//"location" : "app/bower_components/dojo"
+						},
+						{
+							"name": "wire",
+							"location" : "wire"
+						},
+						{
+							"name": "meld",
+							"main": "meld"
+						//	"location" : "app/bower_components/meld"
+						},
+						{
+							"name": "when",
+							"main": "when"
+						//	"location" : "app/bower_components/when"
+						},
+						{
+							"name": "poly",
+							"main": "poly"
+						//	"location" : "app/bower_components/poly"
+						}
+					],
+					trace:{
+						"loader-inject": 0,
+						"loader-define": 1,
+						"loader-exec-module": 0,
+						"loader-run-factory": 0,
+						"loader-finish-exec": 0,
+						"loader-define-module": 0,
+						"loader-circular-dependency": 0
+					}
+
+				}
+		</script>
+	</head>
+	<body class="claro" style="min-width : 980px;">
+    <h1>Data coming from the store wired at app/infrastructure/stores-spec.js</h1>
+		<script type="text/javascript" src="/app/bower_components/dojo/dojo.js"></script>
+	</body>
+</html>

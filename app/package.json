@@ -1,0 +1,17 @@
+{
+	"name": "app",
+	"version": "1.0",
+	"main": "main",
+	"dependencies": {
+		"dojo": "~1.10.0",
+		"wire": "~0.10.9"
+	},
+	"description": "app package.",
+	"ignore": [
+    "app/node_modules",
+    "app/bower_components"
+  ],
+	"bugs": "",
+	"keywords": ["JavaScript", "Dojo"],
+	"dojoBuild": "package.js"
+}

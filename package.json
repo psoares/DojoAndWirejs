@@ -1,0 +1,13 @@
+{
+	"name": "app",
+	"version": "0.4.0",
+	"description": "Demo app using dojo and wirejs",
+	"main": "app/main.js",
+	"devDependencies": {
+		"serv": "0.0.7"
+	},
+	"scripts": {
+		"start": "serv",
+		"preinstall": "rm -rf ./release;sh app/bower_components/dojo-util/buildscripts/build.sh --profile profiles/main.profile.js"
+	}
+}

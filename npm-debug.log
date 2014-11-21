@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /opt/local/bin/node
+5 warn package.json app@0.4.0 No repository field.
+6 warn package.json app@0.4.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/philippe/git/DojoAndWirejs', [ 'serv' ] ]
+9 info preinstall app@0.4.0
+10 verbose unsafe-perm in lifecycle true
+11 info app@0.4.0 Failed to exec preinstall script
+12 error app@0.4.0 preinstall: `rm -rf ./release;sh app/bower_components/dojo-util/buildscripts/build.sh --profile profiles/main.profile.js`
+12 error Exit status 1
+13 error Failed at the app@0.4.0 preinstall script.
+13 error This is most likely a problem with the app package,
+13 error not with npm itself.
+13 error Tell the author that this fails on your system:
+13 error     rm -rf ./release;sh app/bower_components/dojo-util/buildscripts/build.sh --profile profiles/main.profile.js
+13 error You can get their info via:
+13 error     npm owner ls app
+13 error There is likely additional logging output above.
+14 error System Darwin 14.0.0
+15 error command "node" "/usr/local/bin/npm" "install"
+16 error cwd /Users/philippe/git/DojoAndWirejs
+17 error node -v v0.10.33
+18 error npm -v 1.4.28
+19 error code ELIFECYCLE
+20 verbose exit [ 1, true ]
